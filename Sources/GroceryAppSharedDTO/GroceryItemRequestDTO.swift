@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct GroceryItemRequestDTO: Codable {
+public struct GroceryItemRequestDTO: Codable {
     
     public let title: String
     public let price: Double
